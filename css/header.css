@@ -1,9 +1,8 @@
-header{
-    width: 1024px;  /*Para ter uma largura maxima do conteudo , para que fique longe das bordas quando eu centralizar*/
-    margin: 30px auto; /*Para Cenralizar dos lados e 30px pra cima e pra baixo*/
+header section{
     display: flex;
     justify-content: space-between;
     align-items: center; /* Alinhar tudo ao centro */
+    flex-direction: row; /*Para deixar em linha */
 }
 header nav ul{
     display: flex;

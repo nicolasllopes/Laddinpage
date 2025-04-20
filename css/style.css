@@ -15,3 +15,15 @@
     vertical-align: baseline;
     text-decoration: none;
 }
+.container{   /* Classe criada para que todo o conteudo tenh uma largura só, e coloquei para todos ficarem um abixo de outro em coluna, ai criei a classe  "ROW" para colocar em linha e disply flez nas que eu quiser */
+    width: 1024px;  /*Para ter uma largura maxima do conteudo , para que fique longe das bordas quando eu centralizar*/
+    margin: 30px auto; /*Para Cenralizar dos lados e 30px pra cima e pra baixo*/
+    display: flex;
+    flex-direction: column; /* Deixar os container um abaixo do outro */
+  
+}
+
+.row{ /*Classe criada para deixar tudo em linha e do lado do outro */
+    display: flex;
+    flex-direction: row;/*Para deixar em linha */
+}
