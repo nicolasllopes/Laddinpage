@@ -1,0 +1,35 @@
+.section-main{
+    align-items: center; /* Deixar tudo centrlizado */
+    justify-content: space-between;
+}
+
+article{
+    width: 250px; 
+}
+
+
+
+article h1{
+    font-size: 70px;
+    line-height: 90%; /* Deixar o h1 mais espaçado ou mais junto*/
+    font-weight: bold;  /* Deixar mais gordinha*/
+    color: #333366;
+}
+
+article h2{
+    font-size: 33px;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Deixar um letra mais longe da outr0*/
+    line-height: 200%;  /* fazendo que haja um espaçamento entre h1, h2 e p (pra baixo e pra cima)*/
+    color: #3399CC;
+}
+
+
+article p{
+    color: #3399CC;
+    margin: 10px 0 30px 0 ; /* 10px para distnciar do h2 em cima e 30px para distanciar do tbn em baixo*/
+}
+
+div img{
+    width: 700px;
+}

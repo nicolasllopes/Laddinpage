@@ -1,0 +1,15 @@
+header section{
+    justify-content: space-between;
+    align-items: center; /* Alinhar tudo ao centro */
+}
+header nav ul{
+    display: flex;
+    flex-direction: row; /*Para deixar em linha */
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    margin: 0 15px; /*Para deixar as listas uma longe da outra */
+    color: #3399CC;
+}
