@@ -17,6 +17,7 @@ article h1{
 }
 
 article h2{
+    font-weight: bold;
     font-size: 33px;
     text-transform: uppercase;
     letter-spacing: 2px; /* Deixar um letra mais longe da outr0*/
@@ -26,7 +27,7 @@ article h2{
 
 
 article p{
-    color: #3399CC;
+    color: #000000;
     margin: 10px 0 30px 0 ; /* 10px para distnciar do h2 em cima e 30px para distanciar do tbn em baixo*/
 }
 

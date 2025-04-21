@@ -6,6 +6,9 @@
 @import "./main.css";
 @import "./header.css";  /* arquivo do header */
 @import "./buttons.css"; /* arquivo dos botões */
+@import "./footer.css";
+@import "./responsive.css";
+
 
 *{
     margin: 0;
@@ -16,14 +19,20 @@
     font-weight: 300; /* Deixar mais fina as letras*/
     vertical-align: baseline;
     text-decoration: none;
-    
+    list-style-type: none;
 }
+
+body{  /* Background da imagem */
+    background-image: url("../img/bolha-background.png");
+    background-repeat: no-repeat;  /* Par a imagem nao se repitir */
+    background-position: left center; /* Pra ficar na esquerda centralizadas */
+}
+
 .container{   /* Classe criada para que todo o conteudo tenh uma largura só, e coloquei para todos ficarem um abixo de outro em coluna, ai criei a classe  "ROW" para colocar em linha e disply flez nas que eu quiser */
     width: 1024px;  /*Para ter uma largura maxima do conteudo , para que fique longe das bordas quando eu centralizar*/
     margin: 30px auto; /*Para Cenralizar dos lados e 30px pra cima e pra baixo*/
     display: flex;
     flex-direction: column; /* Deixar os container um abaixo do outro */
-  
 }
 
 .row{ /*Classe criada para deixar tudo em linha e do lado do outro */
