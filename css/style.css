@@ -1,0 +1,29 @@
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* Componentes */
+@import "./header.css";  /* arquivo do header */
+@import "./buttons.css"; /* arquivo dos botões */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Source Code Pro", monospace;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.container{   /* Classe criada para que todo o conteudo tenh uma largura só, e coloquei para todos ficarem um abixo de outro em coluna, ai criei a classe  "ROW" para colocar em linha e disply flez nas que eu quiser */
+    width: 1024px;  /*Para ter uma largura maxima do conteudo , para que fique longe das bordas quando eu centralizar*/
+    margin: 30px auto; /*Para Cenralizar dos lados e 30px pra cima e pra baixo*/
+    display: flex;
+    flex-direction: column; /* Deixar os container um abaixo do outro */
+  
+}
+
+.row{ /*Classe criada para deixar tudo em linha e do lado do outro */
+    display: flex;
+    flex-direction: row;/*Para deixar em linha */
+}
